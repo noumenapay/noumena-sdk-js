@@ -1,4 +1,4 @@
-import {HmacSHA256, enc} from 'crypto-js'
+import { enc, HmacSHA256 } from 'crypto-js';
 
 interface NoumenaObj {
     method: string;
